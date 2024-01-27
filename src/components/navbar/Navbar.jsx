@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-scroll'
 import * as Scroll from 'react-scroll'
 import { useLocation, useNavigate } from 'react-router-dom'
@@ -10,6 +10,8 @@ import data from '../../constants/data'
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
+  const [windowWidth, setWindowWidth] = useState(0);
+
   const handleClick = () => setClick(!click);
   const path = useLocation().pathname;
   const location = path.split('/')[1];
@@ -62,15 +64,26 @@ const Navbar = () => {
       </div>
     </>
 
+  useEffect(() => {
+    function captureWindowWidth() {
+      setWindowWidth(window.innerWidth)
+      //console.log(window.innerHeight, window.innerWidth)
+    }
+    // Trigger this function on resize
+    window.addEventListener('resize', captureWindowWidth)
+    //  Cleanup for componentWillUnmount
+    return () => window.removeEventListener('resize', captureWindowWidth)
+  }, [])
+
   return (
     <nav className='sticky top-0 z-50 bg-gradient-to-r
      from-teal-800 to-teal-400'>
       <div className='h-10vh flex justify-between 
       text-white lg:py-5 px-20 py-4 border-teal-800'>
         <div className='flex items-center flex-1'>
-          <CgGym size={40} color="white"/>
+          <CgGym size={40} color="white" />
           <span className='text-3xl font-bold ml-8 text-white'>
-            {data.contactUs.name_long}
+            {(windowWidth > 900) ? `${data.contactUs.name_long} `: `${data.contactUs.name_short}`}
           </span>
         </div>
         <div className='lg:flex md:flex lg: flex-1 items center 
@@ -78,12 +91,12 @@ const Navbar = () => {
           <div className='flex-10'>
             <ul className='flex gap-8 mr-16 text-[18px]'>
               {data.navlinks.map((navlink) => (
-                <Link 
-                spy={true} 
-                smooth={true} 
-                to={navlink.link_to}
-                key={shortid.generate()}
-                onClick={() => handleScroll(`${navlink.link_to}`)}>
+                <Link
+                  spy={true}
+                  smooth={true}
+                  to={navlink.link_to}
+                  key={shortid.generate()}
+                  onClick={() => handleScroll(`${navlink.link_to}`)}>
                   <li className='hover:text-black transition hover:border-b-2 
                 border-teal-900 hover:border-teal-600 cursor-pointer'>
                     {navlink.link_title}

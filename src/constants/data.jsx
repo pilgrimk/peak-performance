@@ -57,7 +57,6 @@ const servicesOffered = {
   sub_headline: '',
   description: [
     `Welcome to ${contactUs.name_long}, where fitness transcends the ordinary, and your journey to peak wellness begins. At the heart of our holistic approach is our passionate owner and trainer, Faith Ekvall, who brings a wealth of expertise and dedication to every session. At Peak Performance, we don't just offer fitness classes; we curate transformative experiences tailored to your individual goals. From specialized strength training that empowers you to reach new heights to weight loss programs designed for sustainable and lifelong results, we are committed to guiding you on a path to physical and mental excellence.`,
-    `What sets ${contactUs.name_long} apart is our unique fusion of diverse modalities, including pilates, yoga-trauma specialization, tension release exercises, breathwork, and sound therapy. We understand that true wellness extends beyond the physical, and our personalized approach ensures that every aspect of your fitness journey aligns with your individual needs. Whether you're seeking firming and toning, a mindful escape through yoga, or trauma-informed healing, Peak Performance is your dedicated partner in achieving holistic well-being. Join us on this transformative adventure, where each session is an opportunity to unlock your full potential and experience the pinnacle of performance in every facet of your life.`,
   ],
   services: [
     {
@@ -96,10 +95,29 @@ const servicesOffered = {
   button_label: 'Gallery', 
 }
 
+const aboutUs = {
+  title: 'About Us',
+  infoObjs: [
+    {
+      topLine: 'Peak Performance Topline',
+      headline: 'Peak Performance Headline',
+      description: [
+        `What sets ${contactUs.name_long} apart is our unique fusion of diverse modalities, including pilates, yoga-trauma specialization, tension release exercises, breathwork, and sound therapy. We understand that true wellness extends beyond the physical, and our personalized approach ensures that every aspect of your fitness journey aligns with your individual needs. Whether you're seeking firming and toning, a mindful escape through yoga, or trauma-informed healing, Peak Performance is your dedicated partner in achieving holistic well-being. Join us on this transformative adventure, where each session is an opportunity to unlock your full potential and experience the pinnacle of performance in every facet of your life.`,
+      ],
+      imgUrl: '',
+      alt: 'alt-1',
+      direction: 'fade-left',
+      bg_color: 'bg-slate-100',
+      reverse: 'false'
+    },
+  ]
+};
+
 const data = {
   heroSection,
   navlinks,
   servicesOffered,
+  aboutUs,
   contactUs
 };
 
