@@ -1,10 +1,12 @@
 import React from 'react'
+import { Header } from '../../components'
+import { data } from '../../constants'
 
 const Gallery = () => {
   return (
     <div id='gallery'
     className='w-full min-h-screen'>
-      Gallery
+      <Header title={data.galleryInfo.title} />
     </div>
   )
 }

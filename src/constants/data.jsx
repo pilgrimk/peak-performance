@@ -1,3 +1,5 @@
+import images from './images'
+
 const heroSection = {
   title: 'Revitalize Your Body and Mind',
   subtitle: 'Breathe, Move, Thrive',
@@ -23,7 +25,7 @@ const navlinks = [
 ];
 
 const contactUs = {
-  title_cu: 'Contact Us',
+  title: 'Contact Us',
   headline: 'Contact Us Headline',
   name_long: 'Peak Performance',
   name_short: 'Peak',
@@ -99,18 +101,60 @@ const aboutUs = {
   title: 'About Us',
   infoObjs: [
     {
-      topLine: 'Peak Performance Topline',
+      topLine: `${contactUs.name_long}`,
       headline: 'Peak Performance Headline',
       description: [
         `What sets ${contactUs.name_long} apart is our unique fusion of diverse modalities, including pilates, yoga-trauma specialization, tension release exercises, breathwork, and sound therapy. We understand that true wellness extends beyond the physical, and our personalized approach ensures that every aspect of your fitness journey aligns with your individual needs. Whether you're seeking firming and toning, a mindful escape through yoga, or trauma-informed healing, Peak Performance is your dedicated partner in achieving holistic well-being. Join us on this transformative adventure, where each session is an opportunity to unlock your full potential and experience the pinnacle of performance in every facet of your life.`,
       ],
-      imgUrl: '',
-      alt: 'alt-1',
+      imgUrl: `${images.yoga_pose}`,
+      alt: 'info-1',
       direction: 'fade-left',
       bg_color: 'bg-slate-100',
       reverse: 'false'
     },
+    {
+      topLine: 'Strength Training',
+      headline: 'Elevate, Strengthen, Conquer',
+      description: [
+        `Embarking on a strength training journey at ${contactUs.name_long} is not just about lifting weights; it's a holistic transformation that extends to every facet of your well-being. Our specialized strength training programs are meticulously crafted to empower you both physically and mentally. By engaging in strength training, you not only build lean muscle mass, but you also enhance your endurance, boost metabolism, and fortify your bones and joints.`,
+        `Beyond the physical benefits, strength training contributes to improved posture, increased energy levels, and a heightened sense of confidence. Whether you're a seasoned athlete or new to the fitness journey, our owner-trainer ensures that each session is personalized, fostering a supportive environment where you can challenge yourself, break limits, and uncover the powerful version of yourself waiting to emerge. Welcome to a strength training experience that transcends the ordinary, where every lift is a step towards a more robust and resilient you.`,
+      ],
+      imgUrl: `${images.strength_training}`,
+      alt: 'strength-training',
+      direction: 'fade-right',
+      bg_color: 'bg-slate-100',
+      reverse: 'true'
+    },
+    {
+      topLine: 'Firming and Toning',
+      headline: 'Firm, Tone, Flourish',
+      description: [
+        `Indulge in the transformative experience of firming and toning at ${contactUs.name_long}, where each session is a delicate balance of sculpting your body and enhancing your overall well-being. Beyond the aesthetic benefits of a more toned physique, our specialized training promotes increased muscle definition, improved flexibility, and enhanced posture. Engaging in firming and toning exercises not only refines your physical appearance but also boosts your confidence and instills a sense of vitality. Join us to redefine your strength and embrace the elegant journey towards a more toned and radiant you.`,
+      ],
+      imgUrl: `${images.firming_toning}`,
+      alt: 'firming-toning',
+      direction: 'fade-left',
+      bg_color: 'bg-slate-100',
+      reverse: 'false'
+    },
+    {
+      topLine: 'Sound Therapy & Tension Release',
+      headline: 'Restore Balance, Relax Unwind',
+      description: [
+        `Immerse yourself in the therapeutic embrace of sound therapy and tension release at ${contactUs.name_long}, where each session is a symphony of relaxation and rejuvenation. Sound therapy utilizes carefully curated sounds to create an environment of tranquility, alleviating stress and promoting mental clarity.`,
+        `Paired with tension release exercises, this combination provides a holistic approach to releasing physical and mental stress, allowing your body and mind to harmonize. Engaging in these practices not only fosters a deep sense of relaxation but also contributes to improved sleep, heightened focus, and an overall sense of well-being. Welcome to a sanctuary where the soothing power of sound and tension release techniques liberate you from the stresses of daily life.`,
+      ],
+      imgUrl: `${images.sound_bowls}`,
+      alt: 'sound-bowls',
+      direction: 'fade-right',
+      bg_color: 'bg-slate-100',
+      reverse: 'true'
+    },    
   ]
+};
+
+const galleryInfo = {
+  title: 'Gallery',
 };
 
 const data = {
@@ -118,6 +162,7 @@ const data = {
   navlinks,
   servicesOffered,
   aboutUs,
+  galleryInfo,
   contactUs
 };
 

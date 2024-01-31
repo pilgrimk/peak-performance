@@ -37,7 +37,6 @@ const Services = () => {
 
             {data.servicesOffered.button_label}
           </button>
-          <span className="h-1 w-3/4 mt-8 mb-8 bg-teal-100 lg:w-1/2"></span>
         </div>
       </div>
     </div>
