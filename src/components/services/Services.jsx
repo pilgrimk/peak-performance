@@ -16,7 +16,7 @@ const Services = () => {
 
   return (
     <div className='w-full my-4'>
-      <div className='container'>
+      <div className='container mx-auto'>
         <div className='flex flex-col justify-center items-center'>
           <p className='text-4xl p-4'>{data.servicesOffered.headline}</p>
           {data.servicesOffered.description.map((desc) => (

@@ -6,16 +6,6 @@ export default {
   ],
   theme: {
     extend: {
-      container: {
-        center: true,
-        padding: {
-          DEFAULT: '1rem',
-          sm: '2rem',
-          lg: '4rem',
-          xl: '5rem',
-          '2xl': '6rem',
-        },
-      },
       backgroundImage: {
         'hero-bg': "url('/src/assets/pexels-girl-weights-1.jpg')",
         'gym-background': "url('/src/assets/pexels-gym-weights.jpg')",

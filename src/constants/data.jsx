@@ -26,7 +26,7 @@ const navlinks = [
 
 const contactUs = {
   title: 'Contact Us',
-  headline: 'Contact Us Headline',
+  headline: 'Call for a free consultation!',
   name_long: 'Peak Performance',
   name_short: 'Peak',
   addr: '123 Main Street',
@@ -155,16 +155,23 @@ const aboutUs = {
 
 const galleryInfo = {
   title: 'Gallery',
+  description: 'Explore our gallery for a down-to-earth perspective on fitness. No glam, just real people engaging in real workouts. These images provide an authentic look at the dedication and diversity of wellness journeys.',
   gallery_images: images.gallery_pics,
 };
 
+const contactUsPage = {
+  title: 'Contact Us Today!',
+  description: `Embark on your journey to a healthier future by taking the first step today. Call us now, and let's begin crafting a personalized fitness and wellness plan tailored to your unique goals. ${contactUs.name_long} is ready to guide you through every step, ensuring a supportive and empowering experience. Whether you're aiming for strength, weight loss, or overall well-being, we're here to make your vision a reality. Call today and start your transformative journey toward a healthier, more vibrant you. Your future self will thank you for the decision to prioritize your well-being today!`,
+}
+
 const data = {
+  contactUs,
   heroSection,
   navlinks,
   servicesOffered,
   aboutUs,
   galleryInfo,
-  contactUs
+  contactUsPage,
 };
 
 export default data;

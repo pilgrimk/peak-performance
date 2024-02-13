@@ -9,18 +9,18 @@ const GalleryDisplay = ({ images }) => {
 
   return (
     <div className="flex">
-      <div className="w-1/4 overflow-y-auto">
+      <div className="w-1/4 h-screen overflow-y-auto px-2 flex flex-col items-start">
         {images.map((imageUrl, index) => (
           <img
             key={index}
             src={imageUrl}
             alt={`Thumbnail ${index + 1}`}
-            className="w-full cursor-pointer mb-5"
+            className="w-16 h-16 object-cover cursor-pointer mb-2 rounded-md"
             onClick={() => handleThumbnailClick(index)}
           />
         ))}
       </div>
-      <div className="flex-grow">
+      <div className="w-3/4">
         <img
           src={selectedImage}
           alt="Main Image"
