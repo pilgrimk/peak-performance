@@ -155,6 +155,7 @@ const aboutUs = {
 
 const galleryInfo = {
   title: 'Gallery',
+  gallery_images: images.gallery_pics,
 };
 
 const data = {
