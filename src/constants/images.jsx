@@ -7,9 +7,10 @@ import firming_toning from '../assets/pexels-firming.jpg'
 import sound_bowls from '../assets/sound-bowls.jpg'
 import gallery1 from '../assets/gallery-01.jpg'
 import gallery2 from '../assets/gallery-02.jpg'
-import gallery3 from '../assets/pexels-gallery-01.jpg'
-import gallery4 from '../assets/pexels-gallery-02.jpg'
-import gallery5 from '../assets/pexels-gallery-03.jpg'
+import gallery3 from '../assets/gallery-03.jpg'
+import gallery4 from '../assets/pexels-gallery-01.jpg'
+import gallery5 from '../assets/pexels-gallery-02.jpg'
+import gallery6 from '../assets/pexels-gallery-03.jpg'
 
 
 const gallery_pics = [
@@ -18,6 +19,7 @@ const gallery_pics = [
   gallery3,
   gallery4,
   gallery5,
+  gallery6,
 ]
 
 const images = {
