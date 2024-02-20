@@ -1,6 +1,7 @@
 import bg from '../assets/pexels-gym-weights.jpg'
 import balancing_rocks from '../assets/pexels-balancing-rocks.jpg'
 import girl_weights from '../assets/pexels-girl-weights-1.jpg'
+import women_yoga from '../assets/pexels-women-yoga.jpg'
 import yoga_pose from '../assets/pexels-yoga-pose.jpg'
 import strength_training from '../assets/pexels-strength-training.jpg'
 import firming_toning from '../assets/pexels-firming.jpg'
@@ -26,6 +27,7 @@ const images = {
   bg,
   balancing_rocks,
   girl_weights,
+  women_yoga,
   yoga_pose,
   strength_training,
   firming_toning,

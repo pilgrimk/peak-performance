@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-bg': "url('/src/assets/pexels-girl-weights-1.jpg')",
+        'hero-bg': "url('/src/assets/pexels-women-yoga.jpg')",
         'gym-background': "url('/src/assets/pexels-gym-weights.jpg')",
         'rocks-background': "url('/src/assets/pexels-balancing-rocks.jpg')",
       },

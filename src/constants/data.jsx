@@ -29,15 +29,15 @@ const contactUs = {
   headline: 'Call for a free consultation!',
   name_long: 'Peak Performance',
   name_short: 'Peak',
-  addr: '123 Main Street',
+  addr: '',
   city: 'Gilbert',
   state_long: 'Arizona',
   state_short: 'AZ',
-  postal_code: '85000',
+  postal_code: '85298',
   country: 'USA',
-  phone_1: '801-111-2222',
-  phone_2: '801-333-4444',
-  email_1: 'peak-performance@gmail.com',
+  phone_1: '480-495-2236',
+  phone_2: '',
+  email_1: 'faith120800@gmail.com',
   email_2: '',
   title_wh: 'Working Hours',
   days_1: 'Monday-Friday:',
@@ -45,12 +45,8 @@ const contactUs = {
   social_media: [
     {
       title: 'Facebook',
-      //link: 'https://www.facebook.com/northbeachschutzhundclub/'
+      link: 'https://www.facebook.com/peakperformance7/'
     },
-    {
-      title: 'Instagram',
-      //link: 'https://www.instagram.com/northbeachschutzhundclub/'
-    }
   ]
 };
 
