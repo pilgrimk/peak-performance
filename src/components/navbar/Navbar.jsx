@@ -67,7 +67,7 @@ const Navbar = () => {
   useEffect(() => {
     function captureWindowWidth() {
       setWindowWidth(window.innerWidth)
-      //console.log(window.innerHeight, window.innerWidth)
+      console.log(window.innerHeight, window.innerWidth)
     }
     // Trigger this function on resize
     window.addEventListener('resize', captureWindowWidth)

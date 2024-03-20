@@ -71,11 +71,11 @@ const servicesOffered = {
     },
     {
       service: 'Pilates',
-      desc: 'Discover the transformative power of Pilates, a low-impact exercise method that focuses on core strength, flexibility, and improved posture.'
+      desc: 'Discover the transformative power of Pilates, a low-impact exercise method that focuses on core strength, balance, flexibility, and improved posture.'
     },
     {
-      service: 'Yoga-Trauma Specialization',
-      desc: 'Find healing and renewal through our yoga-trauma specialization, providing a safe space for mindful movement and emotional well-being.'
+      service: 'Yoga-Trauma Specialization Program',
+      desc: 'Find healing and renewal through our yoga-trauma specialization program, providing a safe space for mindful movement and emotional well-being.'
     },
     {
       service: 'Tension Release Exercises',
@@ -83,7 +83,7 @@ const servicesOffered = {
     },
     {
       service: 'Breathwork',
-      desc: 'Harness the power of breath with our breathwork sessions, unlocking the potential for improved focus, stress relief, and heightened self-awareness.'
+      desc: 'Harness the power of breath with our breathwork sessions, unlocking the potential for improved focus, stress relief, healing and heightened self-awareness.'
     },
     {
       service: 'Sound Therapy',
@@ -98,9 +98,9 @@ const aboutUs = {
   infoObjs: [
     {
       topLine: `${contactUs.name_long}`,
-      headline: 'Peak Performance Headline',
+      headline: 'Transform Your Body, Transform Your Life',
       description: [
-        `What sets ${contactUs.name_long} apart is our unique fusion of diverse modalities, including pilates, yoga-trauma specialization, tension release exercises, breathwork, and sound therapy. We understand that true wellness extends beyond the physical, and our personalized approach ensures that every aspect of your fitness journey aligns with your individual needs. Whether you're seeking firming and toning, a mindful escape through yoga, or trauma-informed healing, Peak Performance is your dedicated partner in achieving holistic well-being. Join us on this transformative adventure, where each session is an opportunity to unlock your full potential and experience the pinnacle of performance in every facet of your life.`,
+        `What sets ${contactUs.name_long} apart is our unique fusion of diverse modalities, including pilates, strength training, yoga-trauma specialization program, tension release exercises, breathwork, and sound therapy. We understand that true wellness extends beyond the physical, and our personalized approach ensures that every aspect of your fitness journey aligns with your individual needs. Whether you're seeking firming and toning, a mindful escape through yoga, or trauma-informed healing, Peak Performance is your dedicated partner in achieving holistic well-being. Join us on this transformative adventure, where each session is an opportunity to unlock your full potential and experience the pinnacle of performance in every facet of your life.`,
       ],
       imgUrl: `${images.yoga_pose}`,
       alt: 'info-1',
