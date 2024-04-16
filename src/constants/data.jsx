@@ -102,7 +102,7 @@ const aboutUs = {
       description: [
         `What sets ${contactUs.name_long} apart is our unique fusion of diverse modalities, including pilates, strength training, yoga-trauma specialization program, tension release exercises, breathwork, and sound therapy. We understand that true wellness extends beyond the physical, and our personalized approach ensures that every aspect of your fitness journey aligns with your individual needs. Whether you're seeking firming and toning, a mindful escape through yoga, or trauma-informed healing, Peak Performance is your dedicated partner in achieving holistic well-being. Join us on this transformative adventure, where each session is an opportunity to unlock your full potential and experience the pinnacle of performance in every facet of your life.`,
       ],
-      imgUrl: `${images.yoga_pose}`,
+      imgUrl: `${images.faith_gallery}`,
       alt: 'info-1',
       direction: 'fade-left',
       bg_color: 'bg-slate-100',
